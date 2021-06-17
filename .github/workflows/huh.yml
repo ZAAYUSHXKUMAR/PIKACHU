@@ -21,7 +21,7 @@ jobs:
 
           find: "from SaitamaRobot"
 
-          replace: "from PIKACHU"
+          replace: "from PIKACHU-X"
 
       - name: Create Pull Request
 
