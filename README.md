@@ -38,29 +38,8 @@
 <a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> </a>
 </p>
 
-## How to setup/deploy.
-
-### Read these notes carefully before proceeding 
-
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/HeLLxGodLike/IGRIS_BOT/blob/shiken/SaitamaRobot/__main__.py#L25)
- - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
-
-
-<details>
-  <summary>Steps to deploy on Heroku !! </summary>
-
-```
-Fill in all the details, Deploy!
-Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
-Turn on worker dyno (Don't worry It's free :D) & Webhook
-Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
-```
 
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZAAYUSHXKUMAR/REBORN-PIKACHU) 
-
-</details>  
-<details>
-  <summary>Steps to self Host!! </summary>
 
 
 
