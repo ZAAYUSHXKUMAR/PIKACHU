@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/dc29dcc863d8210fa9c9d.jpg">
 </p>
 
-# Saitama Robot
+# REBORN PIKACHU ⚡
 
 <p align="center">
 - x -|│  “	Just some code who is a bot for fun! ”  │| - x -
