@@ -15,8 +15,8 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import SaitamaRobot.modules.sql.global_bans_sql as sql
-from SaitamaRobot.modules.sql.users_sql import get_user_com_chats
-from SaitamaRobot import (
+from PIKACHU.modules.sql.users_sql import get_user_com_chats
+from PIKACHU import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -30,16 +30,16 @@ from SaitamaRobot import (
     sw,
     dispatcher,
 )
-from SaitamaRobot.modules.helper_funcs.chat_status import (
+from PIKACHU.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from SaitamaRobot.modules.helper_funcs.extraction import (
+from PIKACHU.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from SaitamaRobot.modules.helper_funcs.misc import send_to_list
+from PIKACHU.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 
