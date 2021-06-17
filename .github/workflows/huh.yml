@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "from PIKACHU"
+          find: "from SaitamaRobot"
 
           replace: "from REBORN-PIKACHU"
 
