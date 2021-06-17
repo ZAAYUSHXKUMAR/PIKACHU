@@ -5,9 +5,9 @@ import aiohttp
 import youtube_dl
 
 from pyrogram import filters
-from PIKACHU import pgram
+from REBORN-PIKACHU import pgram
 from youtube_search import YoutubeSearch
-from PIKACHU.pyrogramee.errors import capture_err
+from REBORN-PIKACHU.pyrogramee.errors import capture_err
 
 
 def time_to_seconds(time):

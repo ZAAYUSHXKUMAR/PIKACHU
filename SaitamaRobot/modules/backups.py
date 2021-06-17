@@ -6,22 +6,22 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
 import SaitamaRobot.modules.sql.notes_sql as sql
-from PIKACHU import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from PIKACHU.__main__ import DATA_IMPORT
-from PIKACHU.modules.helper_funcs.chat_status import user_admin
-from PIKACHU.modules.helper_funcs.alternate import typing_action
+from REBORN-PIKACHU import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from REBORN-PIKACHU.__main__ import DATA_IMPORT
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin
+from REBORN-PIKACHU.modules.helper_funcs.alternate import typing_action
 
-# from PIKACHU.modules.rules import get_rules
+# from REBORN-PIKACHU.modules.rules import get_rules
 import SaitamaRobot.modules.sql.rules_sql as rulessql
 
-# from PIKACHU.modules.sql import warns_sql as warnssql
+# from REBORN-PIKACHU.modules.sql import warns_sql as warnssql
 import SaitamaRobot.modules.sql.blacklist_sql as blacklistsql
-from PIKACHU.modules.sql import disable_sql as disabledsql
+from REBORN-PIKACHU.modules.sql import disable_sql as disabledsql
 
-# from PIKACHU.modules.sql import cust_filters_sql as filtersql
+# from REBORN-PIKACHU.modules.sql import cust_filters_sql as filtersql
 # import SaitamaRobot.modules.sql.welcome_sql as welcsql
 import SaitamaRobot.modules.sql.locks_sql as locksql
-from PIKACHU.modules.connection import connected
+from REBORN-PIKACHU.modules.connection import connected
 
 
 @run_async

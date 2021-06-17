@@ -4,13 +4,13 @@ import random
 from typing import Optional
 
 import SaitamaRobot.modules.sql.notes_sql as sql
-from PIKACHU import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.handlers import MessageHandlerChecker
-from PIKACHU.modules.helper_funcs.chat_status import user_admin, connection_status
-from PIKACHU.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from PIKACHU.modules.helper_funcs.msg_types import get_note_type
-from PIKACHU.modules.helper_funcs.string_handling import (
+from REBORN-PIKACHU import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.handlers import MessageHandlerChecker
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin, connection_status
+from REBORN-PIKACHU.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from REBORN-PIKACHU.modules.helper_funcs.msg_types import get_note_type
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (

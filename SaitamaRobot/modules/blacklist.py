@@ -7,17 +7,17 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
 import SaitamaRobot.modules.sql.blacklist_sql as sql
-from PIKACHU import dispatcher, LOGGER
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from PIKACHU.modules.helper_funcs.extraction import extract_text
-from PIKACHU.modules.helper_funcs.misc import split_message
-from PIKACHU.modules.log_channel import loggable
-from PIKACHU.modules.warns import warn
-from PIKACHU.modules.helper_funcs.string_handling import extract_time
-from PIKACHU.modules.connection import connected
-from PIKACHU.modules.sql.approve_sql import is_approved
-from PIKACHU.modules.helper_funcs.alternate import send_message, typing_action
+from REBORN-PIKACHU import dispatcher, LOGGER
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_text
+from REBORN-PIKACHU.modules.helper_funcs.misc import split_message
+from REBORN-PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.warns import warn
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import extract_time
+from REBORN-PIKACHU.modules.connection import connected
+from REBORN-PIKACHU.modules.sql.approve_sql import is_approved
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 

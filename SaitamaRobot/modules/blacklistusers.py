@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
 import SaitamaRobot.modules.sql.blacklistusers_sql as sql
-from PIKACHU import (
+from REBORN-PIKACHU import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from PIKACHU import (
     WOLVES,
     dispatcher,
 )
-from PIKACHU.modules.helper_funcs.chat_status import dev_plus
-from PIKACHU.modules.helper_funcs.extraction import (
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import dev_plus
+from REBORN-PIKACHU.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from PIKACHU.modules.log_channel import gloggable
+from REBORN-PIKACHU.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async

@@ -8,7 +8,7 @@ import uuid
 from io import BytesIO
 
 import SaitamaRobot.modules.sql.feds_sql as sql
-from PIKACHU import (
+from REBORN-PIKACHU import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -18,15 +18,15 @@ from PIKACHU import (
     WOLVES,
     dispatcher,
 )
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.alternate import send_message
-from PIKACHU.modules.helper_funcs.chat_status import is_user_admin
-from PIKACHU.modules.helper_funcs.extraction import (
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import is_user_admin
+from REBORN-PIKACHU.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from PIKACHU.modules.helper_funcs.string_handling import markdown_parser
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,

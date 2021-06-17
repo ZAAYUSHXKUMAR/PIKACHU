@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from PIKACHU import dispatcher, LOGGER, DRAGONS
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.handlers import MessageHandlerChecker
-from PIKACHU.modules.helper_funcs.chat_status import user_admin
-from PIKACHU.modules.helper_funcs.extraction import extract_text
-from PIKACHU.modules.helper_funcs.filters import CustomFilters
-from PIKACHU.modules.helper_funcs.misc import build_keyboard_parser
-from PIKACHU.modules.helper_funcs.msg_types import get_filter_type
-from PIKACHU.modules.helper_funcs.string_handling import (
+from REBORN-PIKACHU import dispatcher, LOGGER, DRAGONS
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.handlers import MessageHandlerChecker
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_text
+from REBORN-PIKACHU.modules.helper_funcs.filters import CustomFilters
+from REBORN-PIKACHU.modules.helper_funcs.misc import build_keyboard_parser
+from REBORN-PIKACHU.modules.helper_funcs.msg_types import get_filter_type
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from PIKACHU.modules.sql import cust_filters_sql as sql
+from REBORN-PIKACHU.modules.sql import cust_filters_sql as sql
 
-from PIKACHU.modules.connection import connected
+from REBORN-PIKACHU.modules.connection import connected
 
-from PIKACHU.modules.helper_funcs.alternate import send_message, typing_action
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 

@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, Integer
 
-from PIKACHU.modules.sql import BASE, SESSION
+from REBORN-PIKACHU.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):

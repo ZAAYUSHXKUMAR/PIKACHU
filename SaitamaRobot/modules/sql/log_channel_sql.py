@@ -1,6 +1,6 @@
 import threading
 
-from PIKACHU.modules.sql import BASE, SESSION
+from REBORN-PIKACHU.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String, distinct, func
 
 

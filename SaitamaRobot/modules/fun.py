@@ -3,10 +3,10 @@ import random
 import time
 
 import SaitamaRobot.modules.fun_strings as fun_strings
-from PIKACHU import dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.chat_status import is_user_admin
-from PIKACHU.modules.helper_funcs.extraction import extract_user
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import is_user_admin
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async

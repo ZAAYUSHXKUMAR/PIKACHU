@@ -1,6 +1,6 @@
-from PIKACHU.modules.helper_funcs.chat_status import user_admin
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update

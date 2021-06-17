@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from PIKACHU import dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update, Message
 from telegram.ext import CallbackContext, run_async
 

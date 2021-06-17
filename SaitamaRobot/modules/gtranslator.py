@@ -3,8 +3,8 @@ from google_trans_new import LANGUAGES, google_translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from PIKACHU import dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

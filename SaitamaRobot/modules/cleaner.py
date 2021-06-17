@@ -1,14 +1,14 @@
 import html
 
-from PIKACHU import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.chat_status import (
+from REBORN-PIKACHU import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from PIKACHU.modules.sql import cleaner_sql as sql
+from REBORN-PIKACHU.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,

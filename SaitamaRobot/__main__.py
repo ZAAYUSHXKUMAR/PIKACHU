@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from PIKACHU import (
+from REBORN-PIKACHU import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -22,9 +22,9 @@ from PIKACHU import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from PIKACHU.modules import ALL_MODULES
-from PIKACHU.modules.helper_funcs.chat_status import is_user_admin
-from PIKACHU.modules.helper_funcs.misc import paginate_modules
+from REBORN-PIKACHU.modules import ALL_MODULES
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import is_user_admin
+from REBORN-PIKACHU.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,

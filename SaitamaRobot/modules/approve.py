@@ -1,11 +1,11 @@
 import html
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU import dispatcher, DRAGONS
-from PIKACHU.modules.helper_funcs.extraction import extract_user
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import dispatcher, DRAGONS
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async, CallbackQueryHandler
 import SaitamaRobot.modules.sql.approve_sql as sql
-from PIKACHU.modules.helper_funcs.chat_status import user_admin
-from PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin
+from REBORN-PIKACHU.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest

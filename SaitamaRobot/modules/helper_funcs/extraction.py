@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from PIKACHU import LOGGER
-from PIKACHU.modules.users import get_user_id
+from REBORN-PIKACHU import LOGGER
+from REBORN-PIKACHU.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 

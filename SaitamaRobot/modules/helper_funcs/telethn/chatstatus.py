@@ -1,5 +1,5 @@
-from PIKACHU.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from PIKACHU import DRAGONS
+from REBORN-PIKACHU.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from REBORN-PIKACHU import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 

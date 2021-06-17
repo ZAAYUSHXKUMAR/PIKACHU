@@ -3,13 +3,13 @@ import html
 from datetime import datetime
 import humanize
 
-from PIKACHU import dispatcher
-from PIKACHU.modules.disable import (
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from PIKACHU.modules.sql import afk_sql as sql
-from PIKACHU.modules.users import get_user_id
+from REBORN-PIKACHU.modules.sql import afk_sql as sql
+from REBORN-PIKACHU.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async

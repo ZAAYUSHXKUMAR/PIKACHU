@@ -8,7 +8,7 @@ import pretty_errors
 import io
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackContext, CommandHandler
-from PIKACHU import dispatcher, DEV_USERS, OWNER_ID
+from REBORN-PIKACHU import dispatcher, DEV_USERS, OWNER_ID
 
 pretty_errors.mono()
 

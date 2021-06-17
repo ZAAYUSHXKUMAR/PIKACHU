@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from PIKACHU import TIME_API_KEY, dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import TIME_API_KEY, dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 

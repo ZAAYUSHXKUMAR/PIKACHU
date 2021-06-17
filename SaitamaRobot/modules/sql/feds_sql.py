@@ -1,8 +1,8 @@
 import ast
 import threading
 
-from PIKACHU import dispatcher
-from PIKACHU.modules.sql import BASE, SESSION
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 

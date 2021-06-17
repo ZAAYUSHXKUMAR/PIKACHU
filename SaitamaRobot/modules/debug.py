@@ -5,8 +5,8 @@ from telethon import events
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from PIKACHU import telethn, dispatcher
-from PIKACHU.modules.helper_funcs.chat_status import dev_plus
+from REBORN-PIKACHU import telethn, dispatcher
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 

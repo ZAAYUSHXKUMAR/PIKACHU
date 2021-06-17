@@ -1,9 +1,9 @@
 import html
 
-from PIKACHU import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from PIKACHU.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from PIKACHU.modules.log_channel import loggable
-from PIKACHU.modules.sql import reporting_sql as sql
+from REBORN-PIKACHU import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from REBORN-PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (

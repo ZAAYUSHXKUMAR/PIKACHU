@@ -1,7 +1,7 @@
 import random
 
-from PIKACHU import dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 

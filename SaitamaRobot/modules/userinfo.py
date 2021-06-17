@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from PIKACHU import (
+from REBORN-PIKACHU import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from PIKACHU import (
     dispatcher,
     sw,
 )
-from PIKACHU.__main__ import STATS, TOKEN, USER_INFO
+from REBORN-PIKACHU.__main__ import STATS, TOKEN, USER_INFO
 import SaitamaRobot.modules.sql.userinfo_sql as sql
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.sql.global_bans_sql import is_user_gbanned
-from PIKACHU.modules.sql.afk_sql import is_afk, check_afk_status
-from PIKACHU.modules.sql.users_sql import get_user_num_chats
-from PIKACHU.modules.helper_funcs.chat_status import sudo_plus
-from PIKACHU.modules.helper_funcs.extraction import extract_user
-from PIKACHU import telethn as SaitamaTelethonClient
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.sql.global_bans_sql import is_user_gbanned
+from REBORN-PIKACHU.modules.sql.afk_sql import is_afk, check_afk_status
+from REBORN-PIKACHU.modules.sql.users_sql import get_user_num_chats
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import sudo_plus
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_user
+from REBORN-PIKACHU import telethn as SaitamaTelethonClient
 
 
 def no_by_per(totalhp, percentage):

@@ -1,7 +1,7 @@
 import speedtest
-from PIKACHU import DEV_USERS, dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.chat_status import dev_plus
+from REBORN-PIKACHU import DEV_USERS, dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 

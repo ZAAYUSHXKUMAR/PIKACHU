@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from PIKACHU.modules.helper_funcs.msg_types import Types
-from PIKACHU.modules.sql import BASE, SESSION
+from REBORN-PIKACHU.modules.helper_funcs.msg_types import Types
+from REBORN-PIKACHU.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):

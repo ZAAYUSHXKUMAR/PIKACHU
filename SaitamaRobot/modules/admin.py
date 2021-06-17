@@ -5,9 +5,9 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from PIKACHU import DRAGONS, dispatcher
-from PIKACHU.modules.disable import DisableAbleCommandHandler
-from PIKACHU.modules.helper_funcs.chat_status import (
+from REBORN-PIKACHU import DRAGONS, dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import (
     bot_admin,
     can_pin,
     can_promote,
@@ -16,12 +16,12 @@ from PIKACHU.modules.helper_funcs.chat_status import (
     ADMIN_CACHE,
 )
 
-from PIKACHU.modules.helper_funcs.extraction import (
+from REBORN-PIKACHU.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from PIKACHU.modules.log_channel import loggable
-from PIKACHU.modules.helper_funcs.alternate import send_message
+from REBORN-PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message
 
 
 @run_async
