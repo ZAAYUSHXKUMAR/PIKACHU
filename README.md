@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpaperscave.com/images/original/18/04-25/anime-one-punch-man-44886.jpg">
+  <img src="https://telegra.ph/file/dc29dcc863d8210fa9c9d.jpg">
 </p>
 
 # Saitama Robot
