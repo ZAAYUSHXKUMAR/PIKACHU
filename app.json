@@ -1,7 +1,7 @@
 {
-      "name": "IGRIS_BOT",
+      "name": "PIKACHU_REBORN",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/811f02b5ca1fcc3e72915.jpg", 
+      "logo": "https://telegra.ph/file/dc29dcc863d8210fa9c9d.jpg", 
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/HellxGodLike/IGRIS_BOT",
+   "repository": "https://github.com/ZAAYUSHXKUMAR/REBORN-PIKACHU",
    "addons": [
       {
          "options": {
